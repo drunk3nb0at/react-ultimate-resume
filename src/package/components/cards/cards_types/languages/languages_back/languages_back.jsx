@@ -1,6 +1,6 @@
 import React, { memo, useMemo } from 'react';
 
-import { useTheme } from "@mui/styles";
+import { useTheme } from '@mui/styles';
 import makeStyles from '@mui/styles/makeStyles';
 import chroma from 'chroma-js';
 import { motion } from 'framer-motion';
@@ -86,7 +86,8 @@ const Content = ({ data, handleAddButtonClick, classes }) => {
                     cardVariant={variant}
                 >
                     <button className={classes.languageLettersButton} type="button">
-                        {item.language?.substring(0, 2).toUpperCase()}
+                        {/* {item.language?.substring(0, 2).toUpperCase()} */}
+                        {item.language}
                     </button>
                 </LanguageColumn>
             ))}

@@ -25,14 +25,14 @@ const useStyles = makeStyles(styles);
 
 const CARD_TYPE_MAPPING = {
     basics: BasicsCard,
-    social: SocialCard,
+    // social: SocialCard,
     projects: ProjectsCard,
     language: LanguagesCard,
     dreamjob: DreamJobCard,
     gifs: GifsCard,
     experiences: ExperiencesCard,
     // studies: StudiesCard,
-    skills: SkillsCard,
+    // skills: SkillsCard,
     soundtrack: SoundtrackCard,
     interestedBy: InterestedByCard
 };
