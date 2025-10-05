@@ -54,8 +54,8 @@ function App() {
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
-                locale: 'fr',
-                // side: 'back',
+                locale: 'en',
+                side: 'back',
                 showContactInfos: false,
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
@@ -69,7 +69,7 @@ function App() {
                 disableSortableExperience: false,
                 maxCardsPerRow: 3,
                 referenceData: {
-                    professions: ['Developpeur Front-End', 'Développeur Back-End']
+                    professions: ['Zoomy cat', 'Développeur Back-End']
                 }
             }}
             additionalNodes={{
