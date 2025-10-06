@@ -26,9 +26,9 @@ const useStyles = makeStyles(styles);
 const CARD_TYPE_MAPPING = {
     basics: BasicsCard,
     // social: SocialCard,
-    projects: ProjectsCard,
+    // projects: ProjectsCard,
     language: LanguagesCard,
-    dreamjob: DreamJobCard,
+    // dreamjob: DreamJobCard,
     gifs: GifsCard,
     experiences: ExperiencesCard,
     // studies: StudiesCard,

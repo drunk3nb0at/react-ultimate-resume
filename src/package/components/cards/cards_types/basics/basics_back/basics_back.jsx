@@ -69,38 +69,38 @@ const BasicsBackComponent = ({ data, handleAddButtonClick }) => {
                 hide: false,
                 value: descriptionContent
             },
-            visaSponsorship: {
-                hide: !existsAndNotEmpty(visaSponsorship),
-                value: (
-                    <span className={classes.bold}>
-                        <FormattedMessage
-                            id="Basics.Back.VisaSponsorship"
-                            defaultMessage="I require a visa sponsorship"
-                        />
-                    </span>
-                )
-            },
-            work: {
-                title: <FormattedMessage id="Basics.Back.Work.Title" defaultMessage="Work" />,
-                hide: !experienceYears && !existsAndNotEmpty(contractTypes) && !existsAndNotEmpty(searchState),
-                value: (
-                    <>
-                        <ExperienceYears experienceYears={experienceYears} codeExperienceYears={codeExperienceYears} />
-                        <CodeExperienceYears
-                            experienceYears={experienceYears}
-                            codeExperienceYears={codeExperienceYears}
-                        />
-                        <OtherExperienceYears
-                            otherExperienceYears={otherExperienceYears}
-                            codeExperienceYears={codeExperienceYears}
-                        />
-                        <br />
-                        <ContractType contractTypes={contractTypes} />
-                        <br />
-                        <JobSearchState searchState={searchState} />
-                    </>
-                )
-            },
+            // visaSponsorship: {
+            //     hide: !existsAndNotEmpty(visaSponsorship),
+            //     value: (
+            //         <span className={classes.bold}>
+            //             <FormattedMessage
+            //                 id="Basics.Back.VisaSponsorship"
+            //                 defaultMessage="I require a visa sponsorship"
+            //             />
+            //         </span>
+            //     )
+            // },
+            // work: {
+            //     title: <FormattedMessage id="Basics.Back.Work.Title" defaultMessage="Work" />,
+            //     hide: !experienceYears && !existsAndNotEmpty(contractTypes) && !existsAndNotEmpty(searchState),
+            //     value: (
+            //         <>
+            //             <ExperienceYears experienceYears={experienceYears} codeExperienceYears={codeExperienceYears} />
+            //             <CodeExperienceYears
+            //                 experienceYears={experienceYears}
+            //                 codeExperienceYears={codeExperienceYears}
+            //             />
+            //             <OtherExperienceYears
+            //                 otherExperienceYears={otherExperienceYears}
+            //                 codeExperienceYears={codeExperienceYears}
+            //             />
+            //             <br />
+            //             <ContractType contractTypes={contractTypes} />
+            //             <br />
+            //             <JobSearchState searchState={searchState} />
+            //         </>
+            //     )
+            // },
             studies: {
                 title: <FormattedMessage id="Basics.Back.StudiesLevel.Title" defaultMessage="Training" />,
                 hide: !studiesLevel,
