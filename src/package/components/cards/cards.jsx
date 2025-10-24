@@ -29,7 +29,7 @@ const CARD_TYPE_MAPPING = {
     // projects: ProjectsCard,
     language: LanguagesCard,
     // dreamjob: DreamJobCard,
-    gifs: GifsCard,
+    // gifs: GifsCard,
     experiences: ExperiencesCard,
     // studies: StudiesCard,
     // skills: SkillsCard,
